@@ -1,0 +1,36 @@
+{
+  "version": 4,
+  "name": "sauerbraten.zip",
+  "items": [
+    "sauerbraten.sh",
+    "sauerbraten"
+  ],
+  "items_opt": [],
+  "attr": {
+    "title": "Cube 2 Sauerbraten",
+    "porter": [
+      "4pack"
+    ],
+    "desc": "Cube 2: Sauerbraten is a free multiplayer & singleplayer first person shooter, the successor of the Cube FPS.",
+    "desc_md": null,
+    "inst": "Ready to run. Comes with all Sauerbraten content.",
+    "inst_md": null,
+    "genres": [
+      "action",
+      "fps"
+    ],
+    "image": null,
+    "rtr": true,
+    "exp": false,
+    "runtime": [],
+    "store": [],
+    "free": true,
+    "reqs": [
+      "!lowres"
+    ],
+    "arch": [
+      "aarch64"
+    ],
+    "min_glibc": ""
+  }
+}
