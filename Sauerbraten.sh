@@ -32,7 +32,7 @@ cd $GAMEDIR
 export XDG_DATA_HOME="$CONFDIR"
 export LD_LIBRARY_PATH="$GAMEDIR/libs.${DEVICE_ARCH}:$LD_LIBRARY_PATH"
 export SDL_GAMECONTROLLERCONFIG="$sdl_controllerconfig"
-export SAUER_DATA="$GAMEDIR"
+export SAUER_DATA="$GAMEDIR/gamedata"
 export SAUER_BIN=${SAUER_DATA}/bin_unix
 export SAUER_OPTIONS="-q${CONFDIR}/.sauerbraten -w640 -h480"
 #export TEXTINPUTINTERACTIVE="Y"
@@ -49,7 +49,7 @@ else
 fi
 
 $GPTOKEYB "${SAUER_BIN}/native_client" -c "./sauerbraten.gptk.$ANALOGSTICKS" &
-pm_platform_helper "$GAMEDIR/bin_unix/native_client"
-./bin_unix/native_client
+pm_platform_helper "$GAMEDIR/gamedata/bin_unix/native_client"
+./gamedata/bin_unix/native_client
 
 pm_finish
